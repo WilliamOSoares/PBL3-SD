@@ -27,11 +27,12 @@ no entanto devido a algumas adversidades, tais dados passaram a ser gerado por u
 ## Como executar 
 - Compila e executa o arquivo gerador de dados
 ![gerador](https://user-images.githubusercontent.com/43974566/79157156-75a6cf00-7daa-11ea-87f6-fc8a1d10a572.jpg)
--Manter o arquivo "script.gnu" na mesma pasta dos demais
+
 - Compila e executa o arquivo de chamada para o GNUPlot
 bash
 ![image](https://user-images.githubusercontent.com/43974566/79157228-9bcc6f00-7daa-11ea-9543-38dfec610cd4.png)
 
+-Obs: Manter o arquivo "script.gnu" na mesma pasta dos demais para a execução do mesmo.
 ## Resultado
 - gráfico gerado após aproximadamente 50 segundos:
 ![pbl3](https://user-images.githubusercontent.com/43974566/79156193-d208ef00-7da8-11ea-96ed-a3811a5ff2d0.jpg)
