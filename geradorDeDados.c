@@ -25,15 +25,14 @@ int main () {
     printf ("# x \t f(x) \n");	
     
     while (1) {
-	aux = x0 - volts;
-	FILE* escrita = fopen("BaseDeDados.txt", "a");
+		aux = x0 - volts;
+		FILE* escrita = fopen("BaseDeDados.txt", "a");
         fprintf (escrita,"%.3f \t %.3f \n", x0, volts*sin(aux));
-	printf ("%.3f \t %.3f \n", x0, volts*sin(aux));
-	fclose(escrita);
+		printf ("%.3f \t %.3f \n", x0, volts*sin(aux));
+		fclose(escrita);
         x0 += i;
-	sleep(1);
+		sleep(1);
     }
-	
     return 0;
 }
 
