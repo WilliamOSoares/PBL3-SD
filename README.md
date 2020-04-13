@@ -22,3 +22,5 @@ $ ./geradorDeDados
 bash
 $ gcc PBL3.c -o pbl
 $ ./pbl
+- gráfico gerado após aproximadamente 50 segundos:
+![pbl3](https://user-images.githubusercontent.com/43974566/79156193-d208ef00-7da8-11ea-96ed-a3811a5ff2d0.jpg)
