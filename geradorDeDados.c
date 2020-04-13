@@ -1,5 +1,5 @@
 /*
-    Autor: GUSTAVO MENESES, MATHEUS NASCIMENTO e WILLIAM OLIVEIRA SOARES 
+    Autor: GUSTAVO ALVES, MATHEUS NASCIMENTO e WILLIAM OLIVEIRA SOARES 
     Componente Curricular: TEC499 MI Sistemas Digitais
     Concluido em: 2020
     Seguindo a fóruma para gerar a onda é a seguinte:
