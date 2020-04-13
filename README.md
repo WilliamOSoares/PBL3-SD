@@ -8,7 +8,7 @@ no entanto devido a algumas adversidades, tais dados passaram a ser gerado por u
 - Aprender utilizar recursos do SO, por exemplo, o pipe.
 
 ## Ambiente de Desenvolvimento
-- Fora utilizado a máquina virtual ( Vitual Box 6.1 da Oracle ) para poder simular Raspberry Pi, instalando a imagem do Raspbian (x86) que é um sistema operacional gratuito baseado no Debian otimizado para o hardware Raspberry Pi.
+- Foi utilizado a máquina virtual ( Vitual Box 6.1 da Oracle ) para poder simular Raspberry Pi, instalando a imagem do Raspbian (x86) que é um sistema operacional gratuito baseado no Debian otimizado para o hardware Raspberry Pi.
 ![image](https://user-images.githubusercontent.com/43974566/79157620-4a70af80-7dab-11ea-8846-01b8e982bc96.png)
 
 ## Atividades desenvolvidas 
@@ -16,7 +16,7 @@ no entanto devido a algumas adversidades, tais dados passaram a ser gerado por u
 - Script para plotagem no GNUPlot;
 
 ## Gerador de dados
-- O [GeradorDeDados](https://github.com/gsmalves/PBL3-SD/blob/master/geradorDeDados.c) é um processo que gera sinais de onda para o programa GNU plot como pode consumir e então plotar a onda, podendo ser considerado como um produtor que gera dados a todo instante em um loop infinito. Esses dados gerados são enviados para o arquivo criado e denominado "BaseDeDados.txt", que será utilizado no script do GNUplot.
+´- O [GeradorDeDados](https://github.com/gsmalves/PBL3-SD/blob/master/geradorDeDados.c)(produtor) é utilizado para fornecer os dados que seriam advindos do ADS1115,  para assim o GNUPlot (consumidor)  plotar a onda. Ele pode ser considerado como um produtor que gera dados a cada segundo. Esses dados gerados são enviados para o arquivo criado, nomeado como "BaseDeDados.txt", que será utilizado no script do GNU plot para que haja o ajuste de curva relativo aos dados produzidos.
 
 ## GNU plot persistente
 - O processo [PBL3](https://github.com/gsmalves/PBL3-SD/blob/master/PBL3.c) é responsável por abrir o GNU plot, carregar o script nele e se manter de forma persistente consumindo os dados gerados no arquivo de texto, para então gerar as ondas no programa.
@@ -24,7 +24,7 @@ no entanto devido a algumas adversidades, tais dados passaram a ser gerado por u
 ## Como executar 
 - Mantenha todos os arquivos na mesma pasta;
 - Compile e execute o arquivo gerador de dados:
-```
+``` 
 bash
 $ gcc geradorDeDados.c -o geradorDeDados -lm
 $ ./geradorDeDados
