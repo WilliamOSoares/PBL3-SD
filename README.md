@@ -26,15 +26,10 @@ no entanto devido a algumas adversidades, tais dados passaram a ser gerado por u
 
 ## Como executar 
 - Compila e executa o arquivo gerador de dados
-bash
-$ gcc geradorDeDados.c -o geradorDeDados -lm
-$ ./geradorDeDados
 ![gerador](https://user-images.githubusercontent.com/43974566/79157156-75a6cf00-7daa-11ea-87f6-fc8a1d10a572.jpg)
 -Manter o arquivo "script.gnu" na mesma pasta dos demais
 - Compila e executa o arquivo de chamada para o GNUPlot
 bash
-$ gcc PBL3.c -o pbl
-$ ./pbl
 ![image](https://user-images.githubusercontent.com/43974566/79157228-9bcc6f00-7daa-11ea-9543-38dfec610cd4.png)
 
 ## Resultado
